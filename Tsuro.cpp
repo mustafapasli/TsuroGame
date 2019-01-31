@@ -1,6 +1,5 @@
 #include "Tsuro.h"
 #include <random>
-#include <cstdlib>
 
 Tsuro::Tsuro() {
 
