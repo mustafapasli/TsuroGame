@@ -20,7 +20,7 @@ public:
 
     void displayCard() const;
 
-    void convertCardtoArray(); // convert card to 6x12 arrays
+    void convertCardToArray(); // convert card to 6x12 arrays
     void setOnBoard(bool onBoard);
 
     void setArrayCard(const vector<vector<char> > &arrayCard);

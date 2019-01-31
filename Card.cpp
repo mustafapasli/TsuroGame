@@ -15,7 +15,7 @@ Card::Card() {
 
     generateRandomCard();
 
-    convertCardtoArray();
+    convertCardToArray();
 
 }
 
@@ -59,7 +59,7 @@ void Card::generateRandomCard() {
 
     }
 
-    convertCardtoArray();
+    convertCardToArray();
 
 }
 
@@ -99,7 +99,7 @@ void Card::rotateRight() {
     cardPath[1] = temp2;
 
 
-    convertCardtoArray();
+    convertCardToArray();
 
 }
 
@@ -127,11 +127,11 @@ void Card::rotateLeft() {
     cardPath[6] = temp1;
     cardPath[7] = temp2;
 
-    convertCardtoArray();
+    convertCardToArray();
 
 }
 
-void Card::convertCardtoArray() {
+void Card::convertCardToArray() {
 
     arrayCard[0] = {'.', '.', '.', '.', toChar(cardPort[0]), '.', '.', toChar(cardPort[1]), '.', '.', '.', '.'};
     arrayCard[1] = {':', ' ', ' ', ' ', toChar(cardPath[0]), ' ', ' ', toChar(cardPath[1]), ' ', ' ', ' ', ':'};
