@@ -6,15 +6,15 @@ Tsuro Game Implementation in C++
 
  - Read the explanations about the original game (https://en.wikipedia.org/wiki/Tsuro)
 
-##Basic Elements of the Game
+## Basic Elements of the Game
 
 
-###Tokens
+### Tokens
 
 - Tokens represent players.
 - For the version you are going to implement, tokens will be displayed as single characters.
 
-###Path Cards
+### Path Cards
 
 - Square cards which have 2 ports on each of their sides and various routing information. 
 - You can display a Path card as follows:
@@ -37,7 +37,7 @@ Tsuro Game Implementation in C++
 - A path card can be rotated clockwise or counter-clockwise(repeatedly)
 
 
-###2D grid
+### 2D grid
 
 - This game will be played on a 2D grid.
 - Each cell on this grid will either be occupied by a path card or it will be empty. 
@@ -71,7 +71,7 @@ o 7   3  8   47   4  7   47   4  7   4 o
 - If the ports of path cards(tiles) collide, they are assumed to be connected. For example, port 3 of the tile 1
 (first row, first column) is connected to port 6 of the tile on the right.
 
-##Rules of The Game
+## Rules of The Game
 
 - For a general understanding of the game please read the necessary wikipedia articles. You can find more information on other webpages.
 - Basically:
@@ -87,7 +87,7 @@ modifications. So hide unnecessary details.)
   - The token follows the route on the card placed.
   - The objective is to remain on the game.
   
-##Sample Run Game
+## Sample Run Game
 
 ```console 
  
